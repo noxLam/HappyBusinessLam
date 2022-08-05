@@ -5,6 +5,14 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.MCPP.HappyBusinessLam.Api", "MB.MCPP.HappyBusinessLam.Api\MB.MCPP.HappyBusinessLam.Api.csproj", "{8B6A82B9-C374-47DC-9B11-9C0715150959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.MCPP.HappyBusinessLam.Entities", "MB.MCPP.HappyBusinessLam.Entities\MB.MCPP.HappyBusinessLam.Entities.csproj", "{CD3BFCA6-E8BD-453E-A2CF-5D9321C992B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.MCPP.HappyBusinessLam.Utils", "MB.MCPP.HappyBusinessLam.Utils\MB.MCPP.HappyBusinessLam.Utils.csproj", "{6892F72D-A8DF-466E-A7FC-284966B77879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.MCPP.HappyBusinessLam.EntityframeworkCore", "MB.MCPP.HappyBusinessLam.EntityframeworkCore\MB.MCPP.HappyBusinessLam.EntityframeworkCore.csproj", "{EAAB64D0-EFA4-4E22-9968-BAD02CAED8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.MCPP.HappyBusinessLam.Dtos", "MB.MCPP.HappyBusinessLam.Dtos\MB.MCPP.HappyBusinessLam.Dtos.csproj", "{BFDF7F45-4600-462B-A75C-55CD287EB70A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{8B6A82B9-C374-47DC-9B11-9C0715150959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B6A82B9-C374-47DC-9B11-9C0715150959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B6A82B9-C374-47DC-9B11-9C0715150959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3BFCA6-E8BD-453E-A2CF-5D9321C992B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3BFCA6-E8BD-453E-A2CF-5D9321C992B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3BFCA6-E8BD-453E-A2CF-5D9321C992B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3BFCA6-E8BD-453E-A2CF-5D9321C992B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6892F72D-A8DF-466E-A7FC-284966B77879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6892F72D-A8DF-466E-A7FC-284966B77879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6892F72D-A8DF-466E-A7FC-284966B77879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6892F72D-A8DF-466E-A7FC-284966B77879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAAB64D0-EFA4-4E22-9968-BAD02CAED8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAAB64D0-EFA4-4E22-9968-BAD02CAED8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAAB64D0-EFA4-4E22-9968-BAD02CAED8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAAB64D0-EFA4-4E22-9968-BAD02CAED8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDF7F45-4600-462B-A75C-55CD287EB70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDF7F45-4600-462B-A75C-55CD287EB70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDF7F45-4600-462B-A75C-55CD287EB70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDF7F45-4600-462B-A75C-55CD287EB70A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
