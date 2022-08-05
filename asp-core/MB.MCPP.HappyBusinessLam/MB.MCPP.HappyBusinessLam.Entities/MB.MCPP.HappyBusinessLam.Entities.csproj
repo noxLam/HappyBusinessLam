@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MB.MCPP.HappyBusinessLam.Utils\MB.MCPP.HappyBusinessLam.Utils.csproj" />
+  </ItemGroup>
+
 </Project>
