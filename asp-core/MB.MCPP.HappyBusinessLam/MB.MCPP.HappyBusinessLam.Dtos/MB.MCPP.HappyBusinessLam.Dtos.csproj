@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Deals\" />
-    <Folder Include="Drugs\" />
     <Folder Include="Pharmacists\" />
   </ItemGroup>
 
