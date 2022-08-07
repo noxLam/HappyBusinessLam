@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Classifications\" />
     <Folder Include="Deals\" />
     <Folder Include="Drugs\" />
     <Folder Include="Pharmacists\" />
