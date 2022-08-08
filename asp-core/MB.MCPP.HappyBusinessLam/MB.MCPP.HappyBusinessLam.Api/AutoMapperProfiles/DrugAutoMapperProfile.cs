@@ -9,6 +9,7 @@ namespace MB.MCPP.HappyBusinessLam.Api.AutoMapperProfiles
         public DrugAutoMapperProfile()
         {
             CreateMap<Drug, DrugListDto>();
+            CreateMap<Drug, DrugDetailsDto>();
             CreateMap<DrugDto, Drug>();
         }
     }
