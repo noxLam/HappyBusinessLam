@@ -31,6 +31,7 @@ namespace MB.MCPP.HappyBusinessLam.Api.Controllers
         {
             var drugs = await _context
                              .Drugs
+                             .Include(d => d.Classification)
                              .ToListAsync();
 
             var drugDtos = _mapper.Map<List<DrugListDto>>(drugs);
